@@ -3,7 +3,9 @@
 // substrings of length > 1.
 // e.g. "cool".symmetricSubstrings() => ["oo"]
 
-String.prototype.symmetricSubstrings = function () {};
+String.prototype.symmetricSubstrings = function () {
+    return 1;
+};
 
 // Write a function, `anagrams(str1, str2)`, that takes in two words and returns
 // a boolean indicating whether or not the words are anagrams. Anagrams are
